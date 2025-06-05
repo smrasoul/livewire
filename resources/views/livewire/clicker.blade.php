@@ -8,7 +8,7 @@
         </span>
     @endif
 
-    <form class="p-5" wire:submit="createNewUser" action="">
+    <form class="p-5" action="">
 
         <input class="block rounded border border-gray-100 px-3 py-1 mt-2"
                type="text" wire:model="name" placeholder="name">
@@ -32,7 +32,7 @@
         </span>
         @enderror
 
-        <button class="block rounded px-3 py-1 bg-gray-400 text-white">Create</button>
+        <button wire:click.prevent="createNewUser" class="block rounded px-3 py-1 bg-gray-400 text-white">Create</button>
     </form>
 
     <div>
@@ -42,7 +42,7 @@
     </div>
 
     <div>
-{       {--    or in livewire config file    --}}
+        {{--    or in livewire config file    --}}
         {{ $users->links('vendor.livewire.simple-tailwind') }}
     </div>
 
