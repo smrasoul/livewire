@@ -11,7 +11,7 @@
     <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
 
     <!-- Styles / Scripts -->
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
 <body>
@@ -33,7 +33,7 @@
         </header>
     </div>
 </div>
-<div id="content" class="mx-auto" style="max-width:500px;">
+<div id="content" class="" style="">
     {{ $slot }}
 </div>
 </body>
