@@ -3,7 +3,7 @@
         <h2 class="text-2xl mb-3">Users List</h2>
         <input
 {{--            wire:model.live="search"--}}
-               wire:model.live.debounce.1000ms="search"
+               wire:model.live.debounce.500ms="search"
 {{--               wire:model.live.blur="search"--}}
 {{--               wire:model.throttle.200ms="search"--}}
                type="text" placeholder="Search..." class="ring-1 ring-inset ring-gray-300 bg-gray-100 text-gray-900 text-sm rounded">

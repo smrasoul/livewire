@@ -17,6 +17,51 @@
         <li>
             <a href="/search-list">Search List</a>
         </li>
+        <li>
+            <a href="/mount-basics">Mount Basics</a>
+        </li>
+
+        <li>
+            <a href="/computed-properties">Computed Properties</a>
+        </li>
+        <li>
+            <a href="/user/1">Full Page Component</a>
+        </li>
+        <li>
+            <a href="/form-objects">Form Objects</a>
+        </li>
+        <li>
+            <a href=""></a>
+        </li>
+        <li>
+            <a href=""></a>
+        </li>
+        <li>
+            <a href=""></a>
+        </li>
+        <li>
+            <a href=""></a>
+        </li>
+        <li>
+            <a href=""></a>
+        </li>
+        <li>
+            <a href=""></a>
+        </li>
+        <li>
+            <a href=""></a>
+        </li>
+        <li>
+            <a href=""></a>
+        </li>
+        <li>
+            <a href=""></a>
+        </li>
+        <li>
+            <a href=""></a>
+        </li>
+
+
     </ul>
 
     </div>

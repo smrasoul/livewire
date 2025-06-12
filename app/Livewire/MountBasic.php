@@ -3,26 +3,24 @@
 namespace App\Livewire;
 
 use App\Models\User;
-use Livewire\Attributes\Url;
 use Livewire\Component;
 use Livewire\WithPagination;
 
-class SearchList extends Component
+class MountBasic extends Component
 {
 
     use WithPagination;
 
-
-    // adds your search to the Url like: ?s=
-    #[Url(
-        as : 's'
-//        , history : true
-//        , keep : true
-    )]
     public $search;
 
     public function update(){
 
+    }
+
+    //we must pass this argument to the component (<livwire:example :search=""/>)
+    public function mount($search): void
+    {
+        $this->search = $search;
     }
 
     public function render()
