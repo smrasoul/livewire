@@ -20,3 +20,5 @@ Route::view('/computed-properties', 'computed-property');
 Route::get('/user/{user}', FullPageComponent::class);
 
 Route::view('/form-objects', 'form-objects');
+
+Route::view('/data-table', 'data-table');

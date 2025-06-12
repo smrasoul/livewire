@@ -1,4 +1,4 @@
-
+<div>
     <div class="p-5 mx-auto max-w-md">
         <h2 class="text-2xl mb-3">Users List</h2>
         <input
@@ -26,4 +26,9 @@
             </div>
         </div>
     </div>
+    <div class="justify-items-center">
+        {{ $users->links() }}
+    </div>
+</div>
+
 

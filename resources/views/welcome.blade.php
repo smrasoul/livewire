@@ -31,7 +31,7 @@
             <a href="/form-objects">Form Objects</a>
         </li>
         <li>
-            <a href=""></a>
+            <a href="/data-table">Data Table</a>
         </li>
         <li>
             <a href=""></a>
